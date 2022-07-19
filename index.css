@@ -3,3 +3,23 @@ img{
     object-fit: cover;
     object-position: center;
 }
+
+/* 
+@media screen and(max-width: 720px) {
+    img{
+      object-fit: contain;
+    }
+  } */
+
+
+  .d-none {
+    display: block!important;
+}
+
+
+.mycaption{
+    margin-top: 10px;
+    padding:10px;
+    display:inline-block;
+    font-size: 1.5rem;
+}
