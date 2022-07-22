@@ -31,7 +31,7 @@ img{
 }
 
 .carousel-indicators{
-  background-color: orange;
+  background-color: rgba(235,120,42);
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
@@ -76,4 +76,15 @@ button{
 
 .carousel-control-prev{
   z-index: 100;
+}
+
+body{
+  height: 100vh;
+  background-color: rgba(235,120,42);
+}
+
+@media screen and (max-width:500px){
+  .bd-example{
+    margin-top: -60px;
+  }
 }
