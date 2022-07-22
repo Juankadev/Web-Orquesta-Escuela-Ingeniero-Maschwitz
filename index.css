@@ -82,9 +82,22 @@ body{
   height: 100vh;
   background-color: rgba(235,120,42);
 }
+.bd-example.mobile{
+  display:none;
+}
+.bd-example.desktop{
+  display:block;
+}
 
-@media screen and (max-width:500px){
+/*MOBILE*/
+@media screen and (max-width:780px){
   .bd-example{
     margin-top: -60px;
+  }
+  .bd-example.desktop{
+    display:none;
+  }
+  .bd-example.mobile{
+    display:block;
   }
 }
